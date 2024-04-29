@@ -31,7 +31,7 @@ void setup_webserver()
       request->redirect("/");
   });
 
-  server.on("^\\/fan\\/([a-z0-9]+)\\/([a-z0-9]+)$", HTTP_POST, [] (AsyncWebServerRequest *request) {
+  server.on("^\\/fan\\/([a-zA-Z0-9]+)\\/([a-z0-9]+)$", HTTP_POST, [] (AsyncWebServerRequest *request) {
       String action = request->pathArg(0);
       String value = request->pathArg(1);
       HttpFanHandler(action, value); 
