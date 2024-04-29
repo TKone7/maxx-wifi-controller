@@ -49,10 +49,9 @@ Auch wenn das den Begriff API eigentlich nicht verdient, könnt ihr mit einem HT
 * http://maxxwifi.local/fan/power/off
 * http://maxxwifi.local/fan/windows/open
 * http://maxxwifi.local/fan/windows/close
-* http://maxxwifi.local/fan/air/in
-* http://maxxwifi.local/fan/air/out
-* http://maxxwifi.local/fan/speed/10
-* http://maxxwifi.local/fan/speed/20
+* http://maxxwifi.local/fan/speed/0
+* http://maxxwifi.local/fan/speedIn/10
+* http://maxxwifi.local/fan/speedOut/20
 * usw.
 
 ### Disclaimer
